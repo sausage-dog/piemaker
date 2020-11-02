@@ -12,7 +12,9 @@ This includes anything above and below that table, excluding columns' names.
 ## Options
 
 Custom securities can be added with weight and delimited by a comma. eg TSLA 3, XLNX 2.5  
-Initial/Final refers to at which stage those added by the user will be incorporated. Entry with Final set entry will not be scaled nor averaged and will appear as entered at the end product. Entry with Initial set will be treated as if another excel was loaded and that was one if it's entries, if entry already exist this weight will be averaged and scaled.
+Initial/Final refers to at which stage those added by the user will be incorporated.   
+Entry with Final set entry will not be scaled nor averaged and will appear as entered at the end product.   
+Entry with Initial set will be treated as if another excel was loaded and that was one if it's entries, if entry already exist this weight will be averaged and scaled.
 
 ETFs can be given weights too.
 
