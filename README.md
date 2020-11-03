@@ -9,6 +9,8 @@ Works with .xls or .xlsx files only.
 From the excell file remove everything except the main security table and columns' names.  
 This includes anything above and below that table, excluding columns' names.
 
+![alt text](https://i.imgur.com/Dvc8ujY.png)
+
 ## Options
 
 Custom securities can be added with weight and delimited by a comma. eg TSLA 3, XLNX 2.5  
@@ -41,5 +43,14 @@ pyinstaller build command windows:
 pyinstaller main_gui.py —onefile  --noconsole
 pyinstaller build command mac: 
 pyinstaller --onefile main_gui.py  --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' --noconsole
+
+
+![alt text](https://i.imgur.com/UPVONqr.png)
+
+![alt text](https://i.imgur.com/fslFst7.png)
+
+
+
+
 
 
