@@ -39,15 +39,17 @@ It will require pandas and xlrd to be installed with pip.
 There is a mac (mac_exec) and windows (windows_exec) binaries which worked natively on my mac and on windows VM. 
 Not sure why the mac executable appears as a directory but it worked after cloning. Binaries were build with py installer.
 
-pyinstaller build command windows: 
-pyinstaller main_gui.py —onefile  --noconsole
-pyinstaller build command mac: 
-pyinstaller --onefile main_gui.py  --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' --noconsole
-
-
 ![alt text](https://i.imgur.com/UPVONqr.png)
 
 ![alt text](https://i.imgur.com/fslFst7.png)
+
+
+pyinstaller build command windows:   
+pyinstaller main_gui.py —onefile  --noconsole  
+
+pyinstaller build command mac:   
+pyinstaller --onefile main_gui.py  --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' --noconsole  
+
 
 
 
