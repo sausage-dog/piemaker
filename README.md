@@ -1,6 +1,8 @@
 # piemaker
 
-Blends ETFs to make a trading 212 compatible pie
+Blends ETFs to construct a trading 212 compatible pie (custom portfolios).
+
+This is to allow for indirect investment into an ETF that has not received EU/UK approval by creating a replica with individual weightings that closely match the contents of the mutual fund. Multiple funds can be combined in this manner into a single synthetic ETF. To maintain a close resemblance to the original fund, the pie's weights should be updated yearly.
 
 ## Files preperation
 
